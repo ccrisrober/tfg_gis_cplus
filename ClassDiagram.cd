@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AnimatedSprite">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAxAChAAIAAEAAAJAAAAAAAKgAAQ0IAAkAAQNIAA=</HashCode>
+      <FileName>AnimatedSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAQAAAJAAAAAggAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Key">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="Key::TKey" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Key.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Enum Name="Key::__unnamed_enum_0008_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Key.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgABQQgDAAAIAAQAEBMEAAAgAACAACAAgAAAAAAIAgA=</HashCode>
+      <FileName>Key.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerSprite">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABCAAAIAAAAAAIAAAAAAAAAEAQAAQAEAEQAAAA=</HashCode>
+      <FileName>PlayerSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileMap">
+    <Position X="3.25" Y="0.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABIAAAAAAAAIAAAAAAACAAAAAAAAAAIIAAAA=</HashCode>
+      <FileName>TileMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TGlobalVars" Collapsed="true">
+    <Position X="16" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAFAAAAAAAACSAAEAAABAAAAgSAQgAAAAAAAAAAgI=</HashCode>
+      <FileName>Source.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ClientToServer::TInitWithName" Collapsed="true">
+    <Position X="19.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ClientToServer::TGetObject" Collapsed="true">
+    <Position X="19.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ClientToServer::TFreeObject" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ClientToServer::TMove" Collapsed="true">
+    <Position X="16" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ClientToServer::TExit" Collapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ClientToServer::TDiePlayer" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ClientToServer::TOkInitFight" Collapsed="true">
+    <Position X="19.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ClientToServer::TSendAckInitFight" Collapsed="true">
+    <Position X="16" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ClientToServer::TInitBattle" Collapsed="true">
+    <Position X="17.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TMove" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAgA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TNew" Collapsed="true">
+    <Position X="16" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAgA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TExit" Collapsed="true">
+    <Position X="21.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::THide" Collapsed="true">
+    <Position X="16" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TFinishBattle" Collapsed="true">
+    <Position X="16" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAIAAAAAAAAAAAAEAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TRemObject" Collapsed="true">
+    <Position X="16" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TAddObj" Collapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAIAAAAAAAAAAAAAAAAAAAACAAAAAwAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TGetObjFromServer" Collapsed="true">
+    <Position X="21.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TLiberateObj" Collapsed="true">
+    <Position X="21.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TGetInitFight" Collapsed="true">
+    <Position X="17.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP::ServerToClient::TOkInitFight" Collapsed="true">
+    <Position X="21.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TCPEvents.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="FightStates">
+    <Position X="18.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAQAAAAAAEAAAIAQIABACAIABA=</HashCode>
+      <FileName>Source.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
